@@ -1,0 +1,183 @@
+.border{
+    text-align: center;
+    word-spacing: 50px;
+    border: 0.5px double whitesmoke;
+    border-radius: 25px;
+    margin: 5px;
+    
+    
+
+
+
+}
+.left{
+    float: left; width: 50%;
+    color: whitesmoke;
+    text-shadow: 2.5px 2.5px 5px blueviolet;
+    
+    
+
+}
+
+.right{
+    float: right; width: 50%;
+    color: whitesmoke;
+    text-shadow: 2.5px 2.5px 5px blueviolet;
+    
+    
+    
+    
+}
+
+section, article{
+    height: 250px;
+}
+
+a{
+    color: blueviolet;
+    text-decoration: none;
+}
+
+
+a :link{
+    color: yellow;
+}
+
+a:visited{
+    
+}
+
+a:hover{
+    color: blueviolet;
+    padding: 10px;
+    background-color: chocolate
+}
+
+a:active{
+    color: pink;
+}
+
+aside{
+    height: 507px;
+}
+
+body{
+    padding: 5px;
+    background-size: cover;
+    height: 200vh;
+    background-image: url(background\ gif.gif);
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-size: cover;
+}
+
+nav{
+    position: sticky;
+    top: 0%;
+    text-shadow: 2.5px 2.5px 5px blueviolet;
+    background-image: url(../day6/background\ gif.gif);
+    background-size: cover;
+}
+
+h1{
+    color: whitesmoke;
+    background-color: none;
+    text-shadow: 2.5px 2.5px 5px blueviolet;
+    
+    
+    
+}
+
+p{
+    color: whitesmoke;
+    text-shadow: 2.5px 2.5px 5px blueviolet;
+    word-spacing: normal;
+}
+
+
+h2{
+    color: whitesmoke;
+    text-shadow: 2.5px 2.5px 5px blueviolet;
+}
+
+.play1{
+    word-spacing: 1000%;
+    
+}
+
+/* flip card will have the text turn 180 deg with an image to be displayed once the card is on its backside*/
+
+
+.flip-card{
+    background-color: transparent;
+    perspective: 1000px;
+    
+}
+
+/* flip-card-inner will show the image once the text is turned around 180deg */
+
+.flip-card-inner{
+    position: relative;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    
+    
+    
+}   
+
+.flip-card:hover .flip-card-inner{
+    transform: rotateY(180deg);
+    
+    
+}
+
+.flip-card:hover .flip-card-inner{
+    transform: rotateY(180deg);
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    backface-visibility: visible;
+    
+}
+
+.flip-card-front, .flip-card-back{
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    
+    
+
+}
+.flip-card-front{
+    background-color: none  ;
+    
+
+}
+
+
+.clothes{
+    word-spacing: 75px;
+    font-size: large;
+    text-underline-position: black  below
+    
+}
+
+.flip-card-back, .flip-card-inner{
+    background-image: url(../wfb-final-project/pexels-carlos-baeza-2777671.jpg)
+}
+
+h3{
+    color: whitesmoke;
+    text-shadow: 2.5px 2.5px 5px blueviolet;
+}
+
+h4{
+    color: whitesmoke;
+    text-shadow: 2.5px 2.5px 5px blueviolet;
+}
+
+.flip-card-back{
+    background: transparent;
+    perspective: 1000px;
+    background-image: url(../wfb-final-project/jordan-mcqueen-88XM5Al3AXg-unsplash.jpg); 
+}
+

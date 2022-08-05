@@ -1,0 +1,42 @@
+body {font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+   background-image: url(../wfb-final-project/jordan-mcqueen-88XM5Al3AXg-unsplash.jpg);
+   background-size: cover; 
+  
+   
+
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid black thick;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background: transparent;
+  color: white;
+
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: blueviolet ;
+  padding: 20px;
+  background: transparent;
+}
