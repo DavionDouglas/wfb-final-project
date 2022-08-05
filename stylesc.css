@@ -40,3 +40,16 @@ input[type=submit]:hover {
   padding: 20px;
   background: transparent;
 }
+
+.border{
+  color: whitesmoke;
+  text-shadow: 2.5px 2.5px 5px blueviolet;
+  border:0.5px double ;
+  border-radius: 25px;
+  padding: 3px;
+  text-align: center;
+  margin: 50px;
+  word-spacing: 50px;
+  
+  
+}
